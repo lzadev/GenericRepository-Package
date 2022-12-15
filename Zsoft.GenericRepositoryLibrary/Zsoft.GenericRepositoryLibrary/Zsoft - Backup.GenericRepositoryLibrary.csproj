@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Version>3.1.0</Version>
+	  <PackageId>ZSoft.GenericRepositoryLibrary</PackageId>
+	  <Title>GenericRepositoryLibrary</Title>
+	  <Authors>lzadev</Authors>
+	  <Company>ZSoft</Company>
+	  <Description>Repository is a generic implementation of the Repository pattern in C#. It provides a repository base class GenericRepository&lt;T&gt; and IGenericRepository that exposes functions to store/retrieve data</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+  </ItemGroup>
+
+</Project>
